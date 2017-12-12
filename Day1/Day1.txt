@@ -1,0 +1,246 @@
+Core-Java
+---------
+ started at 1990 
+ first release 23rd May, 1995 by Sun Microsystems
+ Invented by James Gosling & Team
+
+Java Specifications
+-------------------
+
+J2SE(standard Edition), 
+J2ME (Micro Edition), 
+J2EE (Enterprises Edition)
+
+Latest technology --> Android
+
+Why Java?
+
+1. Platform Independent (JDK 1.8 is Platform dependent)
+
+Code developed by a programmer is platform independent.
+
+2. Robust  ---> Vast packages of Error,(Exceptions)
+
+Error--> let it happen and rectify it(program will crash)
+Exception-->Guess where it will happen and handle it
+
+3. Secure--> No leak of data access.
+
+UserName:
+Password:
+private Password
+public set, reset
+
+garbage collection-->flush out unwanted memory
+123-->
+123-->java
+
+
+4. Simple-->simple structure,program breakdown
+	Desgin part,coding part,DB part
+5. Fast-->
+	.c,.cpp-->machine code
+        .java--->.class--->jvm-->machine
+
+compiler--->application
+.class--->Hexa decimal (byte code)
+
+6. Multithreading
+	--> performing multiple tasks at a same time
+
+resource-->file,data from DB
+
+name:gopi
+pass
+
+accessing data from our DB
+Loading...
+
+	file1.txt
+App1		   App2
+
+7. Open source-->source code is open to anyone, 
+we can modify it and deploy it
+
+CISCO--->TCP/IP,filesytem
+
+Java--->MS SQL,Oracle-->added SQL,syntax features
+
+create own java code to enable 
+Data access privilege from java code
+    PostgreSQL.jar-->Java Archive(packages,classes,methods)
+MS sql server
+Oracle
+Sqlite
+postgres
+access
+db2
+mongo
+casendra
+....
+
+
+JDK (Java Developer Kit)
+---
+*JRE (Java Runtime environment)
+	Class Loader
+	JVM ( Java Virtual Machine)
+*Tools  
+*Development environment  IDE(Eclipse - Mars)
+
+	where we code our program and compile it.
+	Javac--->Native java compiler
+	Java---> interpreter
+*API --->Set of library files  (documents)
+
+package---> a collection of .class files
+class---> a collection of properties and methods
+
+Program Structure:
+-----------------
+
+package name;
+import packages..;
+<access specifier> class <className>{
+	<datatype> propertyName;
+	<access Specifier> [return dataType] methodName(parameters){
+		<datatype> propertyName;
+		<program or Business Logic>
+	return <variable>
+	}
+	<access Specifier> [return dataType] main(parameters){
+		<datatype> propertyName;
+		<program or Business Logic>
+	return <variable>
+	}
+
+}
+
+Object:  (Object Oriented language)
+-------
+Strictly typed language--> Case sensitive language
+
+Object---> any real world entity.
+
+class--->Students
+
+properties for Students
+
+Name:
+IdNo:
+Address:
+like:
+color
+
+student:
+
+String Name[100]
+INt IdNo[100].
+
+name[0],Id[1]....
+
+
+Variable:
+---------
+Name given to our memory location where we can store our data.
+
+memory-->123-->someName;-->Variable
+
+Operators:
+---------
+1.Arthimetic operator
+2.logical
+3.bitwise
+4.relational
+5.conditional (?)
+6. Increment or decrement
+
+a=10;
+pre- increment-->  ++a; print a  
+post- increment--> a++;
+
+
+Executing java application in Command prompt:
+
+Set the path to java/Bin
+>Set Path=C:\Program Files\Java\jdk1.8.0_92\bin;c:\windows;c:\windows\system32;
+
+command to compile:
+>javac ClassFileName.java
+>java ClassFileName
+
+
+Access specifiers
+----------------
+Default
+
+private-->access within a same class
+public-->access entire package
+protected-->private access along with access to inherited class
+
+scope of a variable:
+------------------
+
+	local to statements  (if(){int i;})
+	local to methods ( public void someMethod(){ int i;}
+	local to classes (class ClassName{ int i;}
+	local to package (class ClassName{ public int i;}
+
+	within the curly braces or method or within a class
+	it also depends on access specifiers.
+
+
+Data Types:
+----------
+Primitive data types
+	integer,character,floating point values, boolean type
+
+integer:
+int,short,long,....
+character:
+char
+floating point:
+float
+double
+boolean type:
+boolean
+
+referenced data types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
