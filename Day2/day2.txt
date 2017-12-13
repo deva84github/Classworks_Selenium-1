@@ -1,0 +1,146 @@
+Inheritance:
+------------
+	reusing our methods or class behaviour 
+	from one class to another
+
+extends-->keyword (help you to get access to another class)
+
+class A{
+properties;
+methods();
+}
+class B extends A
+{
+properties;
+methods();
+Aclassmethods();  //reused code from super class
+}
+
+Interface:
+---------
+--interface will provide you 100% abstraction;
+--user will never get to know about the implementation 
+	details of a method
+
+interface <interfaceName>{
+	public returnType methodName();
+}
+interface <someName> extends <interfaceName>{
+	public returnType methodName();
+}
+class someName implements <interfaceName>{
+
+	public returnType methodName(){
+		some logic;
+	}
+}
+
+<interfaceName> object=new className();
+
+Abstract Classes:
+----------------
+
+It doesn't provide 100% abstraction
+Cann't instantiate abstract class
+abstract-->keyword 
+(restrict the access for a property,method or a class)
+
+
+RBI--->SBI,Indian,Axis....
+new(){
+provide();
+}
+
+Bike-->super class
+Hero-->sub class
+
+(Hero)Bike -->upcasting
+
+Abstract class ===> implementation
+new feature==>implementaion
+
+client1-->abstract class,new feature
+client2-->abstract class
+
+every clients must have only one abstract class implementation
+
+
+keyword (static,final..)
+------------------------
+
+static:--->all instances will share a single memory for 
+	static variable
+public static void method(){
+	print a;
+	print b; // error B is not a static variable
+}
+
+className.method();
+	-->static method doesn't require an object
+public int b;
+public static int a=10;
+
+static{
+	a=10;
+}//will get invoked before main method
+
+obj1.a=20;
+obj2.a-->will print value  as 20
+
+final:--> declaring constants in java
+
+final int a=10;
+
+a=a+20;
+
+String:
+------
+
+character:
+char[]={'j','a'v,a}
+
+String->Constant (immutable)
+
+String string1=new String("Java");
+	String1+"Books"
+
+StringBuffer, StringBuilder  -->Mutable`
+
+
+Arrays:--->class for Arrays manipulation java.util.Arrays
+-------
+
+int a[10]-->other languages;
+
+int[] variableName ---> java syntax
+int []variableName;
+int variableName[];--->not recommended in java
+int[][] variableName;
+int []variableName[];
+
+int[] list=new int[20];-->allocate size
+
+list[0]=123;
+list[1]=12;
+
+Wrapper classes:
+----------------
+primitive type <--> object
+
+int---> Interger   (boxing)
+AutoBoxing from -->1.5
+
+int i=10;
+Integer I=Integer.parseInt(i); //manual unboxing
+Integer I=i;  //AutoUnBoxing
+
+
+char--->Character
+double-->Double
+
+...
+,....
+
+Some API in Java support object
+
+Collections

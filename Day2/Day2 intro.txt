@@ -1,0 +1,317 @@
+Programming---> instruction to computer 
+
+1. machine code( 101010101 )
+2. Assembly code ( ADD A,B Move C D)  Cobol,basic, fortron
+3. Structured code (methods to perform a task)
+4. Object oriented programming structure
+
+OOPS concepts:
+--------------
+
+Inheritance – Inheritance is used for code reusability
+
+Polymorphism – Polymorphic means many forms. Two types-static binding(overloading) and dynamic binding(overriding)
+
+Encapsulation –Encapsulation in java is a process of wrapping code and data together into a single unit. We can create a fully encapsulated class in java by making all the data members of the class private. Now we can use setter and getter methods to set and get the data in it.
+when you put together variables and methods in a single unit called class .When we create an instance of a class, memory is allocated for the variable of the class.
+
+Abstraction - Hiding internal details and showing functionality is known as abstraction. For example: phone call, we don't know the internal processing. In java, we use abstract class and interface to achieve abstraction.
+
+
+Class & Object:
+---------------
+
+
+Class--->Computer
+
+Class: is a template or blueprint of any real time entity
+Object: is a instance of class
+
+
+properties
+----------
+color,
+ram
+monitor
+processor
+
+
+Behaviour
+--------
+processRequest()
+turnOn()
+turnOff()
+
+
+
+
+class: Person
+
+Name
+age
+address
+phone
+
+
+eat()
+play()
+dowork()
+
+Object: Gopi,John,Darwin,Charles
+
+Naming Conventions:
+-------------------
+
+Class: name should be a Noun
+       it should be in pascal case  eg: Employee, Customer
+
+Package: domainname.projectname.modulename      eg: com.htc.bankapplicaiton.accountinformation
+	  should be small case
+
+method: should be in camelCase    eg: withdrawMoney(); 
+
+
+variable: it can be upper or lower case.
+
+
+Entity class: variable should be in camel case
+
+
+
+Access Modifer:
+-----------------
+1. Default ===> access restricted to package
+2. private ===> access restricted within the class
+3. protected==> access is restricted with sub classes and package
+4. public  ===> access is restricted to a project
+
+
+
+Method:
+
+
+access modifier <returnType> methodName(parameter){
+
+		// logic
+}
+
+
+
+public int add(int A, int B){
+
+return A+B;
+
+}
+
+
+constructor:
+
+Special method with the class name.
+constructor will never return any values
+
+
+
+Class Person{
+
+
+Public Person(){   // default constructor
+
+}
+
+public Person(String name, int age, String city){ // parameterized constructor
+
+}
+
+
+
+
+Polymorphism:
+
+
+1. Static---> method overloading
+
+method signature will vary
+
+class Test{
+	method1(){
+	.....
+	}
+	method1(....){
+	.....
+	}
+
+
+}
+2. Dynamic---> method overridding
+
+method signature will not be changed.
+
+class Test{
+
+method(){
+....
+}
+
+}
+class Test1 extends Test{
+
+method(){
+#####    // logic varies
+}
+
+}
+
+
+Abstraction:
+ 
+a class is said to be abstract only if atleast one method should be abstract
+
+it provides partial abstraction i.e partial method implementation.
+
+"abstract" keyword
+
+public abstract class Test{
+
+method(){
+....
+}
+abstract method1();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
